@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(#8ac1f5, #fa86b5) ;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+
+    }
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon-img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 6px solid #fa86b5;
+}
+
+h1 {
+    text-shadow: 5px 5px 5px black;
+}
+
+h2, h3, h4, p {
+    text-shadow: 0px 0px 5px black;
+}
+
+
+#bday-age, #bday-date {
+    background: #fa86b5;
+    padding: 3px 10px 5px 10px;
+    border-radius: 30px;
+    margin-bottom: none;
+}
+
+#bday-age {
+    margin-bottom: 8px;
+}
+
+#bday-date {
+    margin-top: auto;
+}
+
+#gift-title {
+    margin-bottom: 0;
+}
+
+#gift-hint {
+    margin-top: 7px;
+}
+
+#gift-cover-1 {
+    height: 400px;
+    width: 400px;
+    border: 3px solid white;
+    background-image: url("images/birthday-card.gif");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#gift-cover-1:hover {
+    background-image: url("images/birthday-message.jpg");
+    background-size: cover;
+}
+
+#gift-cover-2 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#gift-cover-2:hover {
+    background-image: url("images/gift-card.png");
+    background-size: cover;
+}
+
+#gift-cover-3 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#gift-cover-3:hover {
+    background-image: url("images/lindt.jpg");
+    background-size: cover;
+}
+
+#gift-cover-4 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    background-image: url("images/powerpuff-gif.gif");
+    background-size: cover;
+    margin: 0 auto;
+    background-position: center; 
+    margin-bottom: 40px;
+}
+
+#gift-cover-4:hover {
+    background-image: url("images/animals.jpg");
+    background-size: cover;
+}
+
+#gifts {
+    display: flex;
+}
+
+#open-presents-title {
+    margin: 60px 0 20px;
+}
